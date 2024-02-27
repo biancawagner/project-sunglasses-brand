@@ -402,7 +402,7 @@ button:active {
     }
     nav ul {
         position: fixed;
-        top: 555px;
+        top: 420px;
         right: -100%;
         background-color: #009576;
         height: 100vh;
@@ -422,9 +422,13 @@ button:active {
         right: 0;
     }
 
+    .navlist li {
+        margin: 20px auto;
+    }
+
     nav ul li{
         width: 100%;
-        margin: 20px 0;
+        margin: 20px auto;
         background-color: transparent;
     }
     nav ul li a {
